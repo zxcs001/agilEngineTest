@@ -1,0 +1,54 @@
+header {
+  display: block;
+  height: 40px;
+  padding-left: 15px;
+  padding-top: 15px;
+  font-size: 24px;
+  border-bottom: 4px solid #ffa500;
+  background-color: rgba(33,33,33,0.5);
+  color: #fff;
+}
+
+.App {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.sym-container {
+  background-color: #f1f0f0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.sym-render{
+  width: 600px;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  background-color: #fff;
+  border: 1px solid #e4dede;
+}
+
+.blod {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: overline;
+}
